@@ -1,0 +1,7 @@
+
+jjtree minijava.jjt
+javacc minijava.jj
+javac MiniJava.java
+java MiniJava < Factorial.java
+
+建議至Compiler資料夾測試。

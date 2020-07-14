@@ -1,0 +1,17 @@
+
+ Open cmd in the directory of ~/0516320_≠‚≠N¿‹_project1/java_code/
+ // All the java and javacc is in the %/PATH%/
+ 
+
+ $ javacc MiniJava.jj                       // create java from .jj
+                                  
+ $ javac MiniJava.java                      // compile MiniJava.java 
+
+ $ java MiniJava Factorial.java             // run MiniJava and input Factorial.java
+
+
+
+
+ "MiniJava" , not "minijava" or "Minijava".
+
+

@@ -1,0 +1,13 @@
+
+jjtree minijava.jjt
+javacc minijava.jj
+javac MiniJava.java
+java MiniJava < Factorial.java (印在螢幕上)
+java MiniJava < Factorial.java >output.txt
+
+或
+
+javacc minijava.jj
+javac MiniJava.java
+java MiniJava < Factorial.java (印在螢幕上)
+java MiniJava < Factorial.java >output.txt

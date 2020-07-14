@@ -1,0 +1,6 @@
+
+各Java中有備註說明。
+此檔案夾跑程式會出錯，因為含說明文字。
+
+跑Java請至上層./Compiler中
+跑JJtree請至上層./Initial中

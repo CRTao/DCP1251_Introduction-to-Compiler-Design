@@ -1,0 +1,11 @@
+
+jjtree minijava.jjt
+javacc minijava.jj
+javac MiniJava.java
+java MiniJava < Factorial.java
+
+©Î
+
+javacc minijava.jj
+javac MiniJava.java
+java MiniJava < Factorial.java

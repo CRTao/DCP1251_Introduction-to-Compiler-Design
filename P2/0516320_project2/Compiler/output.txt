@@ -1,0 +1,45 @@
+Start :    
+  MainClass :    
+    Identifier :    Factorial
+    Identifier :    a
+    PrintStatement :    
+      CallNode :    
+        NewClassNode :    
+          Identifier :    Fac
+        Identifier :    ComputeFac
+        ExpList :    
+          IntConstNode :    10
+  ClassDeclaration :    
+    Identifier :    Fac
+    MethodDeclaration :    
+      Type :    int
+      Identifier :    ComputeFac
+      Type :    int
+      Identifier :    num
+      VarDeclaration :    
+        Type :    int
+        Identifier :    num_aux
+      IfStatement :    
+        RelationalExpression :    
+          Identifier :    num
+          RelationalOperator :    <
+          IntConstNode :    1
+        Assignment :    
+          Identifier :    num_aux
+          AssignmentOperator :    =
+          IntConstNode :    1
+        Assignment :    
+          Identifier :    num_aux
+          AssignmentOperator :    =
+          MultiNode :    
+            Identifier :    num
+            CallNode :    
+              ThisNode :    
+              Identifier :    ComputeFac
+              ExpList :    
+                AddNode :    
+                  Identifier :    num
+                  IntConstNode :    1
+      ReturnExpression :    
+        Identifier :    num_aux
+Type Checking Complete.
